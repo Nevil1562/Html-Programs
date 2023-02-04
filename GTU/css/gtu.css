@@ -1,0 +1,163 @@
+.headtop
+{
+	/*border: 1px solid;*/
+	height: 100px;
+}
+.headleft
+{
+	/*border: 1px solid;*/
+	height: 100px;
+	float: left;
+	width: 15%;
+}
+.headright
+{
+	/*border: 1px solid;*/
+	height: 100px;
+	font: right;
+	width: 65%;
+	float: left;
+}
+.headleft img
+{
+	height: 100px;
+	margin-left: 100px;
+}
+.webname
+{
+	border: 0px solid;
+	font-size: 35px;
+	text-align: right;	
+	padding: 10px;
+	font-weight: bold;
+	color: #001f4d;
+}
+.subname
+{
+	border: 0px solid;
+	font-size: 15;
+	text-align: right;
+	padding: 5px;
+	color: #8c8c8c;
+}
+.menu
+{
+	border: 0px solid;
+	height: 45px;
+	background-color: #cc2900;
+}
+.menu ul
+{
+	list-style: none;
+	margin:0px;
+	margin-left: 100px; 
+	padding: 0px;
+}
+.menu ul li
+{
+	border-left: 1px solid;
+	float: left;
+	padding: 13px;
+	/*width: 7.5%;*/
+	text-align: center;
+	color: #ffffff;
+}
+.menu ul li:hover
+{
+	background-color: #ff3300;
+}
+.menu ul li ul
+{
+	width: 20%;
+	position: absolute;
+	margin-top: 9px;
+	margin-left: -18px;
+	visibility: hidden;
+}
+.menu ul li ul li
+{
+	background-color: #cc2900;
+	/*position: absolute;*/
+	float: none;
+	text-align: left;
+	padding: 5px;
+}
+.menu ul li:hover > ul
+{
+	visibility: visible;
+	padding: 5px;
+}
+.menu ul li ul li ul
+{
+	width: 50%;
+	/*position: absolute;*/
+	margin-top: -28px;
+	/*float: right;*/
+	margin-left: 263px;
+	visibility: hidden;
+}
+.menu ul li ul li ul li
+{
+	background-color: #cc2900;
+	/*position: absolute;*/
+	/*float: right;*/
+	float: none;
+	text-align: left;
+	padding: 5px;
+}
+.img_box
+{
+	border: 0px solid;
+	float: left;
+	background-color: #b8b894;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 200px;
+	height: 300px;
+	width: 70%; 
+}
+.box1
+{
+	border: 0px solid;
+	float: left;
+	padding: 4px;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 300px;
+	width: 33%; 
+}
+.box2
+{
+	border: 0px solid;
+	float: left;
+	padding: 4px;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 300px;
+	width: 33%; 
+}
+.box3
+{
+	border: 0px solid;
+	float: left;
+	padding: 4px;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 300px;
+	width: 31.4%; 
+}
+.box1 img
+{
+	height: 220px;
+	width: 100%;
+}
+.box2 img
+{
+	height: 220px;
+	width: 100%;
+}
+.box3 img
+{
+	height: 220px;
+	width: 100%;
+}

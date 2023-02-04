@@ -1,0 +1,98 @@
+.headtop
+{
+	border: 0px solid;
+	height: 100px;
+	background: #ffb366;
+}
+.headleft
+{
+	border: 0px solid;
+	height: 100px;
+	width: 15%;
+	float: left;
+	background: #ffb366;
+}
+.headright
+{
+	border: 0px solid;
+	height: 100px;
+	width: 69.5%;
+	float: left;
+}
+.headleft img
+{
+	height: 100px;
+
+}
+.image
+{
+	border: 0px solid;
+	height: 100px;
+	width: 15%;
+	float: left;
+	background: #ffb366;
+}
+.image img
+{
+	height: 100px;
+
+}
+.Webname
+{
+	border: 0px solid;
+	font-size: 35px;
+	text-align: center;
+	padding: 10px;
+	color: #0066ff;
+	font-weight: bold;
+}
+.subname
+{
+	border: 0px solid;
+	font-size: 25px;
+	text-align: center;
+	color: #001f4d;
+	padding: 5px;
+}
+.menu
+{
+	border: 0px solid;
+	height: 40px;
+	background-color: #002966;
+}
+.menu ul
+{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+.menu ul li
+{
+	border: 0px solid;
+	float: left;
+	padding: 10px;
+	width: 15.1%;
+	text-align: center;
+	color: #ffffff;
+}
+.menu ul li:hover
+{
+	background-color: blue;
+}
+.menu ul li ul
+{
+	width: 100%;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -10px;
+	visibility: hidden;
+}
+.menu ul li ul li
+{
+	background-color: #002966;
+	float: none;
+}
+.menu ul li:hover > ul
+{
+	visibility: visible;
+}

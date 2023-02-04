@@ -1,0 +1,383 @@
+.head
+{
+	/*border: 1px solid;*/
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	margin-left: -10px;	
+	margin-top: -10px;
+}
+.headleft
+{
+	/*border: 1px solid;*/
+	height: 79px;
+	width: 20%;
+	float: left;
+}
+.headleft img
+{
+	/*border: 1px solid;*/
+	height: 40px;
+	width: 60%;
+	margin-top: 20px;
+}
+.menu
+{
+	/*border: 1px solid;*/
+	height: 79px;
+	width: 60%;
+	float: left;
+	margin-left: 50px;
+}
+.menu ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+}
+.menu ul li
+{
+	float: left;
+	/*border: 1px solid;*/
+	padding: 7.5px;
+	margin-left: 20px;
+	color: grey;
+	margin-top: 22px;
+	font-size: 16px;
+	height: 42px;
+	cursor: pointer;
+}
+.headright
+{
+	/*border: 1px solid;*/
+	height: 79px;
+	width: 15.9%;
+	float: left;
+}
+.search
+{
+	/*border: 1px solid red;*/
+	height: 79px;
+	width: 20%;
+	float: left;
+	/*background-color: blue;*/
+}
+.search img
+{
+	/*border: 1px solid;*/
+	height: 20px;
+	width: 50%;
+	margin-top: 28px;
+	margin-left: -20px;
+	/*background-color: blue;*/
+}
+.tata
+{
+	/*border: 1px solid red;*/
+	height: 79px;
+	width: 77%;
+	float: left;
+}
+.tata img
+{
+	/*border: 1px solid;*/
+	height: 22px;
+	width: 60%;
+	margin-top: 27px;
+	margin-left: -40px;
+}
+.panel1
+{
+	/*border: 1px solid;*/
+	height: 325px;
+	width: 99%;
+	position: absolute;
+	margin-top: 32px;
+	margin-left: -350px;
+	background-color: blue;
+	visibility: hidden;
+}
+.menu ul li:hover > .panel1
+{
+	visibility: visible;
+}
+.img1
+{
+	/*border: 1px solid;*/
+	height: 230px;
+	width: 40%;
+	margin-left: 60px;
+	margin-top: 45px;
+	float: left;
+}
+.img1 img
+{
+	height: 100%;
+	width: 100%;
+}
+.about1
+{
+	/*border: 1px solid;*/
+	height: 200px;
+	width: 15%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.about1 ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: -10px;
+}
+.about1 ul li
+{
+	float: left;
+	/*border: 1px solid;*/
+	padding: 7.5px;
+	margin-left: 20px;
+	color: grey;
+	margin-top: 10px;
+	font-size: 19px;
+	color: white;
+}
+.heading
+{
+	/*border: 1px solid;*/
+	height: 40px;
+	width: 100%;
+	font-size: 29px;
+	float: left;
+	font-family: monospace;
+	margin-left: 15px;
+	color: white;
+}
+.panel2
+{
+	/*border: 1px solid;*/
+	height: 325px;
+	width: 99%;
+	position: absolute;
+	margin-top: 32px;
+	margin-left: -445px;
+	background-color: blue;
+	visibility: hidden;
+}
+.menu ul li:hover > .panel2
+{
+	visibility: visible;
+}
+.panel3
+{
+	/*border: 1px solid;*/
+	height: 325px;
+	width: 99%;
+	position: absolute;
+	margin-top: 32px;
+	margin-left: -625px;
+	background-color: blue;
+	visibility: hidden;
+}
+.menu ul li:hover > .panel3
+{
+	visibility: visible;
+}
+.panel4
+{
+	/*border: 1px solid;*/
+	height: 325px;
+	width: 99%;
+	position: absolute;
+	margin-top: 32px;
+	margin-left: -785px;
+	background-color: blue;
+	visibility: hidden;
+}
+.menu ul li:hover > .panel4
+{
+	visibility: visible;
+}
+.image
+{
+	/*border: 1px solid;*/
+	height: 500px;
+	width: 100%;
+	float: left;
+	margin-top: 900px;	
+}
+.image1
+{
+	/*border: 1px red solid;*/
+	height: 100%;
+	width: 30%;
+	float: left;
+	background-image: url('img/image7.jpg');
+	background-size: cover;
+	transition: width 1s;
+	/*position: relative; */
+}
+.image1:hover
+{
+	width: 40%;
+}
+.image2
+{
+	/*border: 1px red solid;*/
+	height: 100%;
+	width: 30%;
+	float: left;
+	background-image: url('img/image8.jpg');
+	background-size: cover;
+	/*position: relative; */
+	transition: width 1s;
+}
+.image2:hover
+{
+	width: 40%;
+}
+.image3
+{
+	/*border: 1px red solid;*/
+	height: 100%;
+	width: 30%;
+	float: left;
+	background-image: url('img/image9.jpg');
+	background-size: cover;
+	transition: width 1s;
+	/*position: relative; */
+}
+.image3:hover
+{
+	width: 40%;
+}
+.world
+{
+	/*border: 1px solid red;*/
+	height: 550px;
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+.our
+{
+	/*border: 1px solid;*/
+	height: 50px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #00264d;
+	font-size: 35px;
+	font-family: monospace;
+	margin-top: 90px;
+}
+.sel
+{
+	/*border: 1px solid;*/
+	height: 35px;
+	width: 100%;
+	float: left;
+}
+.tic
+{
+	/*border: 1px solid red;*/
+	height: 100%;
+	width: 40px;
+	float: left;
+	margin-left: 470px;
+	/*visibility: hidden;*/
+}
+.tic img
+{
+	height: 32px;
+	width: 32px;
+}
+/*.select:hover > .tic  margin: =0`322*
+{
+	visibility: visible;
+}*/
+.select
+{
+	/*border: 1px solid;*/
+	height: 27px;
+	width: 80px;
+	float: left;
+	margin-left: 10px;
+	font-size: 25px;
+	margin-top: 3px;
+}
+.tic2
+{
+	/*border: 1px solid red;*/
+	height: 100%;
+	width: 40px;
+	float: left;
+	/*margin-left: 450px;*/
+}
+.tic2 img
+{
+	height: 32px;
+	width: 32px;
+}
+.blogs
+{
+	/*border: 1px solid;*/
+	height: 300px;
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	/*margin-left: 205px;*/
+}
+.blog1
+{
+	/*border: 1px solid red;*/
+	height: 100%;
+	width: 25%;
+	float: left;
+	margin-left: 80px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blogimg
+{
+	/*border: 1px solid;*/
+	height: 70%;
+	width: 100%;
+}
+.blogimg img
+{
+	height: 100%;
+	width: 100%;
+}
+.bloginfo
+{
+	/*border: 1px solid blue;*/
+	height: 25%;
+	width: 90%;
+	font-family: monospace;
+	font-size: 20px;
+	margin-top: 12px;
+	margin-left: 30px;
+	color: grey;
+}
+/*.latest
+{
+	border: 1px solid red;
+	height: 550px;
+	width: 100%;
+	float: left;
+	background-color: #00264d;
+}
+.lat
+{
+	border: 1px solid;
+	height: 50px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-family: cursive;
+	margin-top: 90px;
+}*/

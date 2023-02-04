@@ -1,0 +1,675 @@
+.menu
+{
+	/*border: 1px solid;*/
+	height: 32px;
+	width: 100%;
+	background-color: #0f0f0a;
+	cursor: pointer;
+}
+.left
+{
+	/*border: 1px solid;*/
+	height: 30px;
+	width: 550px;
+	float: left;
+	color: #a3a375;
+	cursor: pointer;
+}
+.left ul
+{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+	margin-left: 40px;
+}
+.left ul li
+{
+	/*border: 1px solid;*/
+	float: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+.left ul li:hover
+{
+	color: orange; 
+}
+.left ul li ul
+{
+	/*border: 1px solid;*/
+	position: absolute;
+	margin-top: 5px;
+	margin-left: -20px;
+	visibility: hidden;
+}
+.left ul li ul li
+{
+	float: none;
+	color: black;
+	background-color: grey;
+	/*background-color: #e6b800;*/
+}
+.left ul li:hover > ul
+{
+	visibility: visible;
+	background-color: grey;
+}
+.right
+{
+	/*border: 1px solid;*/
+	height: 30px;
+	width: 310px;
+	float: left;
+	color: #a3a375;
+	margin-left: 470px;
+	cursor: pointer;
+}
+.right ul
+{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+	margin-left: 40px;
+}
+.right ul li
+{
+	/*border: 1px solid;*/
+	float: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+.right ul li:hover
+{
+	color: white;
+}
+.menu2
+{
+	/*border: 1px solid red;*/
+	height: 600px;
+	background-image: url('../img/back8.jpg');
+	background-size: cover;
+}
+.menu-left{
+	border: 0px solid ;
+	height: 100px;
+	width:10%;
+	float: left;
+
+}
+.menu-left img{
+	height: 55px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.menu-right{
+	border: 0px solid ;
+	height: 100px;
+	width: 89.5%;
+	float: left;
+}
+.menu-right ul
+{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+.menu-right ul li
+{
+	border: 0px solid;
+	float: left;
+	padding: 38px;
+	color: #fff;
+	/*font-weight: bold;*/
+}
+.menu-right ul li:hover
+{
+	color: #e62e00;
+	background-color: white;
+}
+.panel1
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -172px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel1
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.panel2
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -318px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel2
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.panel3
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -486px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel3
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.panel4
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -609px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel4
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.panel5
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -735px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel5
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.panel6
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -935px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel6
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.panel7
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -1050px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel7
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.panel8
+{
+	background-color: #ffffff;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	margin-left: -1165px;
+	margin-top: 20px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.menu-right ul li:hover > .panel8
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.col
+{
+	/*border: 1px solid red;*/
+	height: 250px;
+	text-align: center;
+	width: 200px;
+	float: left;
+	cursor: pointer;
+}
+.mi
+{
+	height: 53px;
+	width: 60px;
+	margin-left: 52px;
+	margin-top: -530px; 
+}
+.mi img
+{
+	height: 53px;
+	width: 58px;
+}
+.ad
+{
+	/*border: 1px solid red;*/
+	height: 270px;
+	width: 100%;
+	float: left;
+	/*margin-top: 5px;*/
+}
+.ad1
+{
+	/*border: 1px solid;*/
+	height: 230px;
+	width: 404px;
+	margin: 20px;
+	float: left;
+}
+.ad1 img
+{
+	height: 230px;
+	width: 404px;
+}
+.star
+{
+	/*border: 1px solid;*/
+	height: 700px;
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+}
+.txt
+{
+	/*border: 1px solid;*/
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: grey;
+}
+.star1
+{
+	/*border: 1px solid;*/
+	height: 579.5px;
+	width: 45.9%;
+	float: left;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+.star2
+{
+	/*border: 1px solid red;*/
+	height: 300px;
+	width: 25%;
+	float: left;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.star2 img
+{
+	height: 300px;
+	width: 100%;
+}
+.star3
+{
+	/*border: 1px solid green;*/
+	height: 278px;
+	width: 50%;
+	float: left;
+}
+.star3 img
+{
+	height: 278px;
+	width: 100%;
+}
+.hot
+{
+	/*border: 1px solid;*/
+	height: 800px;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+.hot_menu
+{
+	/*border: 1px solid red;*/
+	height: 766px;
+}
+.hot_menu ul
+{
+	list-style: none;
+	text-align: center;
+	padding-left: 330px;
+	margin-top: 10px;
+	color: grey;
+}
+.hot_menu ul li
+{
+	float: left;
+	padding: 30px;
+}
+.hot_menu ul li:hover
+{
+	color: #e62e00;
+	/*background-color: green;*/
+	cursor: pointer;
+}
+.h1
+{
+	/*background-color: green;*/
+	position: absolute;
+	height: 650px;
+	width: 90%;
+	margin-left: -310px;
+	margin-top: 30px;
+	/*visibility: hidden;*/
+	cursor: pointer;
+}
+.h_col_l
+{
+	/*border: 1px solid red;*/
+	height: 600px;
+	width: 300px;
+	margin-top: 15px;
+	float: left;
+	cursor: pointer;
+}
+.h_col
+{
+	/*border: 1px solid;*/
+	height: 292px;
+	width: 270px;
+	margin-left: 10px;
+	margin-top: 15px;
+	float: left;
+	cursor: pointer;
+}
+/*.hot_menu ul li:hover > .h1
+{
+	visibility: visible;
+	cursor: pointer;
+}*/
+.h2
+{
+	/*background-color: green;*/
+	position: absolute;
+	height: 650px;
+	width: 90%;
+	margin-left: -448px;
+	margin-top: 30px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.hot_menu ul li:hover > .h2
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.h3
+{
+	/*background-color: green;*/
+	position: absolute;
+	height: 650px;
+	width: 90%;
+	margin-left: -602px;
+	margin-top: 30px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.hot_menu ul li:hover > .h3
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.h4
+{
+	/*background-color: green;*/
+	position: absolute;
+	height: 650px;
+	width: 90%;
+	margin-left: -701px;
+	margin-top: 30px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.hot_menu ul li:hover > .h4
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.h5
+{
+	/*background-color: green;*/
+	position: absolute;
+	height: 650px;
+	width: 90%;
+	margin-left: -818px;
+	margin-top: 30px;
+	visibility: hidden;
+	cursor: pointer;
+}
+.hot_menu ul li:hover > .h5
+{
+	visibility: visible;
+	cursor: pointer;
+}
+.reviews
+{
+	/*border: 1px solid;*/
+	height: 400px;
+	width: 100%;
+	float: left;
+}
+.rev
+{
+	/*border: 1px solid;*/
+	height: 300px;
+	width: 45.5%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+	/*text-align: center;*/
+	color: grey;
+	/*background-color: #f5f5f0;*/
+	font-size: 12px;
+}
+.videos
+{
+	/*border: 1px solid;*/
+	height: 400px;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+.vid
+{
+	/*border: 1px solid;*/
+	height: 300px;
+	width: 32.3%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	color: grey;
+	text-align: center;	
+}
+.press
+{
+	/*border: 1px solid;*/
+	height: 600px;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+.press1
+{
+	/*border: 1px solid;*/
+	height: 535px;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	background-image: url('../img/press1.jpg');
+	background-size: cover;
+}
+.info
+{
+	/*border: 1px solid;*/
+	height: 660px;
+	width: 100%;
+	float: left;
+	margin-top: 60px;
+	background-color: #1f1f14;
+}
+.info1
+{
+	/*border: 1px solid;*/
+	height: 500px;
+	width: 17%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: #a3a375;
+}
+.info1 ul
+{
+	list-style: none;
+}
+.info1 ul li
+{
+	margin-top: 15px;
+	cursor: pointer;
+}
+.info1 ul li:hover
+{
+	color: white;
+}
+.info2
+{
+	/*border: 1px solid;*/
+	height: 500px;
+	width: 17%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: #a3a375;
+}
+.info2 ul
+{
+	list-style: none;
+}
+.info2 ul li
+{
+	margin-top: 15px;
+	cursor: pointer;
+}
+.info2 ul li:hover
+{
+	color: white;
+}
+.info3
+{
+	/*border: 1px solid;*/
+	height: 500px;
+	width: 17%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: #a3a375;
+}
+.info3 ul
+{
+	list-style: none;
+}
+.info3 ul li
+{
+	margin-top: 15px;
+	cursor: pointer;
+}
+.info3 ul li:hover
+{
+	color: white;
+}
+.info4
+{
+	/*border: 1px solid;*/
+	height: 500px;
+	width: 17%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: #a3a375;
+}
+.info4 ul
+{
+	list-style: none;
+}
+.info4 ul li
+{
+	margin-top: 15px;
+	cursor: pointer;
+}
+.info4 ul li:hover
+{
+	color: white;
+}
+.info5
+{
+	/*border: 1px solid;*/
+	height: 500px;
+	width: 17%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: #a3a375;
+}
+.info5 ul
+{
+	list-style: none;
+}
+.info5 ul li
+{
+	margin-top: 15px;
+	cursor: pointer;
+}
+.info5 ul li:hover
+{
+	color: white;
+}
+.info6
+{
+	/*border: 1px solid;*/
+	height: 30px;
+	width: 40%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: #a3a375;
+	margin-top: 60px;
+	margin-left: 80px;
+}
